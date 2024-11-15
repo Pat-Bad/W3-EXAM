@@ -29,7 +29,10 @@ Authorization: " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzM3MGU
                       <p class="card-text">${product.price}</p>
                       <a href="./product-detail.html?productId=${
                         product._id
-                      }" class="btn btn-primary px-2 py-2">Vai ai dettagli!</a>
+                      }" class="btn btn-primary ms-2">Vai ai dettagli!</a>
+                      <a href="./product-detail.html?productId=${
+                        product._id
+                      }" class="btn btn-primary">Modifica prodotto</a>
                   </div>
               </div>
           `
