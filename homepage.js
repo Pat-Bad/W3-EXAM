@@ -19,17 +19,17 @@ Authorization: " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzM3MGU
         const newCol = document.createElement('div')
         newCol.classList.add('col', 'col-12', 'col-md-6', 'col-lg-4')
         newCol.innerHTML = `
-              <div class="card g-3">
+              <div class="card g-3 h-100 gy-3">
                   <img src="
                   ${product.imageUrl}" class="card-img-top" alt="product-image">
                   <div class="card-body">
                       <h5 class="card-title">${product.name}</h5>
-                      <p class="card-text">${product.description}</p>
-                      <p class="card-text">${product.brand}</p>
-                      <p class="card-text">${product.price}</p>
+                      <p class="card-text ">${product.description}</p>
+                      <p class="card-text ">${product.brand}</p>
+                      <p class="card-text ">${product.price}</p>
                       <a href="./product-detail.html?productId=${
                         product._id
-                      }" class="btn btn-primary ms-2">Vai ai dettagli!</a>
+                      }" class="btn btn-primary">Vai ai dettagli!</a>
                       <a href="./product-detail.html?productId=${
                         product._id
                       }" class="btn btn-primary">Modifica prodotto</a>
